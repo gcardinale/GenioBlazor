@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "Xh8Ar95pK8Q719TI7p/YT9HP6zn/Hgwuj3oNaNq6A+0=",
+  "Source": "GenioWeekInput",
+  "BasePath": "_content/GenioWeekInput",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "GenioWeekInput\\wwwroot",
+      "Source": "GenioWeekInput",
+      "ContentRoot": "C:\\Users\\g.cardinale\\Documents\\GitHub\\GenioBlazor\\GenioWeekInput\\wwwroot\\",
+      "BasePath": "_content/GenioWeekInput",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

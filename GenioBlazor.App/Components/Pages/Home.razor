@@ -1,0 +1,24 @@
+﻿@page "/"
+
+@rendermode InteractiveServer
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<GenioWeekInput @bind-DateTimeValue="DateValue" />
+
+@if (DateValue.HasValue)
+   @DateValue.Value.ToString()
+
+@code {
+
+    private DateTime? DateValue { get; set; }
+
+    private async Task UpdateDate(DateTime? date)
+    {
+        DateValue = date;
+    }
+}

@@ -1,0 +1,57 @@
+﻿@using System.Globalization
+
+<input type="week" @onchange="UpdateDate" class="@Class" />
+
+@code {
+
+    [Parameter]
+    public string? Class { get; set; }
+
+    [Parameter]
+    public string? Style { get; set; }
+
+    [Parameter]
+    public DateTime? DateTimeValue { get; set; }
+
+    [Parameter]
+    public EventCallback<DateTime?> DateTimeValueChanged { get; set; }
+
+    private async void UpdateDate(ChangeEventArgs e)
+    {
+        // Se l'input è vuoto, non fare nulla
+        var date = e.Value?.ToString() ?? null;
+
+        if (date == null)
+        {
+            return;
+        }
+
+        // Ottieni l'anno e la settimana dall'input
+        var parts = date.Split('-');
+        int year = int.Parse(parts[0]);
+        int week = int.Parse(parts[1].Substring(1));
+
+        // Calcola la data del lunedì per l'anno e la settimana dati
+        DateTimeValue = FirstDateOfWeekISO8601(year, week);
+        await DateTimeValueChanged.InvokeAsync(DateTimeValue);
+    }
+
+    // Funzione per ottenere la data del lunedì per una data settimana ISO 8601
+    private static DateTime FirstDateOfWeekISO8601(int year, int weekOfYear)
+    {
+        DateTime jan1 = new DateTime(year, 1, 1);
+        int daysOffset = DayOfWeek.Thursday - jan1.DayOfWeek;
+
+        DateTime firstThursday = jan1.AddDays(daysOffset);
+        var cal = CultureInfo.CurrentCulture.Calendar;
+        int firstWeek = cal.GetWeekOfYear(firstThursday, CalendarWeekRule.FirstFourDayWeek, DayOfWeek.Monday);
+
+        var weekNum = weekOfYear;
+        if (firstWeek <= 1)
+        {
+            weekNum -= 1;
+        }
+        var result = firstThursday.AddDays(weekNum * 7);
+        return result.AddDays(-3);
+    }
+}

@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\g.cardinale\\Documents\\GitHub\\GenioBlazor\\GenioBlazor.App\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GenioBlazor.App.bundle.scp.css",
+      "PackagePath": "staticwebassets\\GenioBlazor.App.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\g.cardinale\\Documents\\GitHub\\GenioBlazor\\GenioBlazor.App\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\g.cardinale\\Documents\\GitHub\\GenioBlazor\\GenioBlazor.App\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\g.cardinale\\Documents\\GitHub\\GenioBlazor\\GenioBlazor.App\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\g.cardinale\\Documents\\GitHub\\GenioBlazor\\GenioBlazor.App\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GenioBlazor.App.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.GenioBlazor.App.props",
+      "PackagePath": "build\\GenioBlazor.App.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.GenioBlazor.App.props",
+      "PackagePath": "buildMultiTargeting\\GenioBlazor.App.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.GenioBlazor.App.props",
+      "PackagePath": "buildTransitive\\GenioBlazor.App.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
