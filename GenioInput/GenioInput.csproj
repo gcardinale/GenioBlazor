@@ -4,13 +4,12 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Title>Genio Week Input</Title>
+    <Title>Genio Input</Title>
     <Authors>Genio Speciale</Authors>
-    <Description>Add &lt;input type="week" /&gt; to Blazor &amp; return Monday date of week</Description>
-    <PackageProjectUrl>https://github.com/gcardinale/GenioBlazor</PackageProjectUrl>
+    <Description>Lots Input Type for Blazor</Description>
     <RepositoryUrl>https://github.com/gcardinale/GenioBlazor</RepositoryUrl>
-    <PackageTags>Genio;week;input</PackageTags>
+    <PackageProjectUrl>https://github.com/gcardinale/GenioBlazor</PackageProjectUrl>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
 

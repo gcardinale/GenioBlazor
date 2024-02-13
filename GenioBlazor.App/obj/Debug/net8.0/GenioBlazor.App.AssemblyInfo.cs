@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GenioBlazor.App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+091a0f7217c8dac9b2feb156316520d4e529f520")]
 [assembly: System.Reflection.AssemblyProductAttribute("GenioBlazor.App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GenioBlazor.App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

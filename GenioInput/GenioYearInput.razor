@@ -1,0 +1,36 @@
+﻿@using System.Globalization
+
+<input type="number" @onchange="UpdateDate" class="@Class" />
+
+@code {
+
+    [Parameter]
+    public string? Class { get; set; }
+
+    [Parameter]
+    public string? Style { get; set; }
+
+    [Parameter]
+    public DateTime? DateTimeValue { get; set; }
+
+    [Parameter]
+    public EventCallback<DateTime?> DateTimeValueChanged { get; set; }
+
+    private async void UpdateDate(ChangeEventArgs e)
+    {
+        // Se l'input è vuoto, non fare nulla
+        var date = e.Value?.ToString() ?? null;
+
+        if (date == null)
+        {
+            return;
+        }
+
+        if(int.TryParse(date, out int year))
+        {
+            DateTimeValue = new DateTime(year, 1, 1);
+            await DateTimeValueChanged.InvokeAsync(DateTimeValue);
+        }
+    }
+
+}

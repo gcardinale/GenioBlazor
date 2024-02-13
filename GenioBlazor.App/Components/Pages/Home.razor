@@ -9,6 +9,7 @@
 Welcome to your new app.
 
 <GenioWeekInput @bind-DateTimeValue="DateValue" />
+<GenioYearInput @bind-DateTimeValue="DateValue" />
 
 @if (DateValue.HasValue)
    @DateValue.Value.ToString()
@@ -17,8 +18,4 @@ Welcome to your new app.
 
     private DateTime? DateValue { get; set; }
 
-    private async Task UpdateDate(DateTime? date)
-    {
-        DateValue = date;
-    }
 }

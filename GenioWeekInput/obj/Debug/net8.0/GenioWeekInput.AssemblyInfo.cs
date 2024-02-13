@@ -15,10 +15,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Add <input type=\"week\" /> to Blazor & return Monday date of week")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+091a0f7217c8dac9b2feb156316520d4e529f520")]
 [assembly: System.Reflection.AssemblyProductAttribute("GenioWeekInput")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GenioWeekInput")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/gcardinale/GenioBlazor")]
 
 // Generato dalla classe WriteCodeFragment di MSBuild.
 

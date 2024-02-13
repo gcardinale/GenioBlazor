@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GenioWeekInput\GenioWeekInput.csproj" />
+    <ProjectReference Include="..\GenioInput\GenioInput.csproj" />
   </ItemGroup>
 
 </Project>
