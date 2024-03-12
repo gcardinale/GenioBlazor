@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "z4xLS3jvY0jjOjJ0dJdd5T6EzSxCGB7zC/hZEYNH/a5Kdezof8kqU0MQId5FMTN0h529Z5n8z8dtZbiySAsKmQ==",
+  "dgSpecHash": "u0CKLMW43xD4d36Q/IHzNDKGIb5FZayfPz99v2Qh3UB7IwLlvQ3BMGq3npoRWmbsXciwk7IPcKjCg6n42ScfLQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\g.cardinale\\Documents\\GitHub\\GenioBlazor\\GenioBlazor.App\\GenioBlazor.App.csproj",
   "expectedPackageFiles": [
@@ -16,7 +16,8 @@
     "C:\\Users\\g.cardinale\\.nuget\\packages\\microsoft.extensions.options\\8.0.1\\microsoft.extensions.options.8.0.1.nupkg.sha512",
     "C:\\Users\\g.cardinale\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\g.cardinale\\.nuget\\packages\\microsoft.jsinterop\\8.0.1\\microsoft.jsinterop.8.0.1.nupkg.sha512",
-    "C:\\Users\\g.cardinale\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512"
+    "C:\\Users\\g.cardinale\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
+    "C:\\Users\\g.cardinale\\.nuget\\packages\\genioinput\\1.0.0\\genioinput.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }
